@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-b  @main
+  @main
 struct CryptoAppApp: App {
     
     @StateObject private var vm = HomeViewModel()
