@@ -16,6 +16,7 @@
 		3D4ECAD62A0860010084BD04 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4ECAD52A0860010084BD04 /* CircleButtonView.swift */; };
 		3D4ECAD82A0864860084BD04 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4ECAD72A0864860084BD04 /* CircleButtonAnimationView.swift */; };
 		3D4ECADB2A0868C80084BD04 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4ECADA2A0868C80084BD04 /* CoinModel.swift */; };
+		3D79C7D72A2D239900E03AC4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D79C7D62A2D239900E03AC4 /* HomeViewModel.swift */; };
 		3DEB74CF2A224DC10046AF21 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB74CE2A224DC10046AF21 /* CoinRowView.swift */; };
 		3DEB74D12A224E290046AF21 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB74D02A224E290046AF21 /* PreviewProvider.swift */; };
 		3DEB74D32A2253900046AF21 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB74D22A2253900046AF21 /* Double.swift */; };
@@ -32,6 +33,7 @@
 		3D4ECAD52A0860010084BD04 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		3D4ECAD72A0864860084BD04 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		3D4ECADA2A0868C80084BD04 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		3D79C7D62A2D239900E03AC4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		3DEB74CE2A224DC10046AF21 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		3DEB74D02A224E290046AF21 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		3DEB74D22A2253900046AF21 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		3D4ECAD02A085D290084BD04 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3D79C7D62A2D239900E03AC4 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DEB74CF2A224DC10046AF21 /* CoinRowView.swift in Sources */,
+				3D79C7D72A2D239900E03AC4 /* HomeViewModel.swift in Sources */,
 				3D4ECABF2A0856BD0084BD04 /* ContentView.swift in Sources */,
 				3D4ECAD22A085DED0084BD04 /* HomeView.swift in Sources */,
 				3D4ECABD2A0856BD0084BD04 /* CryptoAppApp.swift in Sources */,

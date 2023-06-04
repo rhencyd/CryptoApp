@@ -18,6 +18,8 @@ class DeveloperPreview {
     static let instance = DeveloperPreview() // Singleton
     private init() { }
     
+    let homeVM = HomeViewModel()
+    
     let coin = CoinModel(
         id: "bitcoin",
         symbol: "btc",
