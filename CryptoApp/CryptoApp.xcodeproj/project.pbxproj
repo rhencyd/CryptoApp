@@ -28,6 +28,8 @@
 		3D79C7EC2A2EBD1D00E03AC4 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D79C7EB2A2EBD1D00E03AC4 /* StatisticModel.swift */; };
 		3D79C7EE2A2EBE5400E03AC4 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D79C7ED2A2EBE5400E03AC4 /* StatisticView.swift */; };
 		3D79C7F02A2EC41400E03AC4 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D79C7EF2A2EC41400E03AC4 /* HomeStatsView.swift */; };
+		3DAA55BA2A30C4D600A51DC4 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA55B92A30C4D600A51DC4 /* MarketDataModel.swift */; };
+		3DAA55BC2A30CA6A00A51DC4 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA55BB2A30CA6A00A51DC4 /* MarketDataService.swift */; };
 		3DEB74CF2A224DC10046AF21 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB74CE2A224DC10046AF21 /* CoinRowView.swift */; };
 		3DEB74D12A224E290046AF21 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB74D02A224E290046AF21 /* PreviewProvider.swift */; };
 		3DEB74D32A2253900046AF21 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB74D22A2253900046AF21 /* Double.swift */; };
@@ -56,6 +58,8 @@
 		3D79C7EB2A2EBD1D00E03AC4 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		3D79C7ED2A2EBE5400E03AC4 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		3D79C7EF2A2EC41400E03AC4 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
+		3DAA55B92A30C4D600A51DC4 /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
+		3DAA55BB2A30CA6A00A51DC4 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		3DEB74CE2A224DC10046AF21 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		3DEB74D02A224E290046AF21 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		3DEB74D22A2253900046AF21 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 			children = (
 				3D4ECADA2A0868C80084BD04 /* CoinModel.swift */,
 				3D79C7EB2A2EBD1D00E03AC4 /* StatisticModel.swift */,
+				3DAA55B92A30C4D600A51DC4 /* MarketDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			children = (
 				3D79C7D92A2D2B8A00E03AC4 /* CoinDataService.swift */,
 				3D79C7E12A2D459600E03AC4 /* CoinImageService.swift */,
+				3DAA55BB2A30CA6A00A51DC4 /* MarketDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				3D79C7D72A2D239900E03AC4 /* HomeViewModel.swift in Sources */,
 				3D4ECABF2A0856BD0084BD04 /* ContentView.swift in Sources */,
 				3D79C7E62A2D4EB000E03AC4 /* LocalFileManager.swift in Sources */,
+				3DAA55BA2A30C4D600A51DC4 /* MarketDataModel.swift in Sources */,
 				3D4ECAD22A085DED0084BD04 /* HomeView.swift in Sources */,
 				3D79C7EE2A2EBE5400E03AC4 /* StatisticView.swift in Sources */,
 				3D79C7E02A2D40C200E03AC4 /* CoinImageView.swift in Sources */,
@@ -301,6 +308,7 @@
 				3D79C7E82A2D58EB00E03AC4 /* SearchBarView.swift in Sources */,
 				3D79C7DD2A2D34EE00E03AC4 /* NetworkingManager.swift in Sources */,
 				3D79C7F02A2EC41400E03AC4 /* HomeStatsView.swift in Sources */,
+				3DAA55BC2A30CA6A00A51DC4 /* MarketDataService.swift in Sources */,
 				3D4ECAD82A0864860084BD04 /* CircleButtonAnimationView.swift in Sources */,
 				3D79C7E42A2D479200E03AC4 /* CoinImageViewModel.swift in Sources */,
 				3DEB74D12A224E290046AF21 /* PreviewProvider.swift in Sources */,
